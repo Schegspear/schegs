@@ -1,11 +1,13 @@
 body {
     background: whitesmoke url(fon.jpg);
     color: black;
-    height: 100vh;
+    max-height: 100vh;
+    min-height: 40vh
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-attachment: fixed;
     
 }
 /** {
